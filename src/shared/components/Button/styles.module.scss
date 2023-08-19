@@ -1,0 +1,24 @@
+.btn {
+  padding: 10px 30px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #279EFF;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #1fabf1ed;
+    color: #e8ebf1;
+  }
+
+  &.fullWidth {
+    width: 100%;
+  }
+
+  &:disabled {
+    background-color: #c8e5f3;
+    cursor: not-allowed;
+  }
+
+
+}
